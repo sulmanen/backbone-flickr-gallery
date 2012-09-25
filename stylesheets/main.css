@@ -1,0 +1,350 @@
+body { 
+	margin: 2em; 
+	font-family: Helvetica, sans-serif;
+	font-weight: 100;
+	color: #666666;
+}
+
+a img {
+	border: none;
+}
+
+.maja-navigation-toolbar {
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+.maja-navigation-toolbar-item {
+	display: inline-block;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 5px;
+	cursor: pointer;
+}
+
+h1#maja-title {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	display: inline-block;
+	font-weight: 500;
+	position: relative;
+	bottom: 33px;
+	right: 17px;
+	padding-left: 20px;
+	font-size: 40px;
+}
+
+#maja_project_gallery {
+	padding: 10px;
+	text-align: center;
+}
+
+#toolbar {
+	display: inline-block;
+	position: relative;
+	top: -6px;
+	left: 35px;
+	padding-left: 0px;
+	float: right;
+}
+
+.maja-gallery-item {
+	display: inline-block;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.maja_project_gallery_item_title {
+	width: 200px;
+	padding-top: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 100;
+	cursor: pointer;
+}
+
+.maja-navigation-toolbar-selected {
+	text-decoration: underline;
+}
+	
+.maja-gallery-detail-panel {
+	text-align: right;
+}
+
+.maja-gallery-detail-title {
+	font-weight: 100;
+	margin-bottom: 0px;
+	display: inline-block;
+}
+
+.maja-gallery-detail-nav {
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 3px;
+	cursor: pointer;
+	float: right;
+	top: 27px;
+	left: 4px;
+	position: relative;
+}
+
+.maja-gallery-detail-left-nav {
+	background-image: url(../images/nav/arrowLlight.png);
+}
+
+.maja-gallery-detail-left-nav:hover {
+	background-image: url(../images/nav/arrowLdark.png);
+}
+
+.maja-gallery-detail-right-nav {
+	background-image: url(../images/nav/arrowRlight.png);
+	margin-right: 15px;
+}
+
+.maja-gallery-detail-right-nav:hover {
+	background-image: url(../images/nav/arrowRdark.png);
+	margin-right: 15px;
+}
+
+#maja_resume {
+	padding-top: 20px;
+}
+
+.maja-resume-introduction {
+	float: left;
+	width: 750px;
+	font-size: 23px;
+	font-family: adelle, serif;
+	font-weight: 100;
+}
+
+.resume-section-item {
+	display: inline-block;
+	margin-bottom: 0px;
+	margin-top: 3px;
+	font-size: 13px;
+	
+}
+
+.maja-resume-section {
+	display: inline-block;
+	width: 210px;
+	clear: right;
+	padding: 5px 25px;
+	float: left;	
+}
+
+.maja-resume-portrait {
+    float: right;
+}
+
+.maja-resume-section-title {
+	font-weight: 100;
+}
+
+.maja-resume-section-item-detail {
+	list-style-type: none;
+	margin-top: 1px;
+	font-size: 13px;
+	padding-left: 0px;
+	padding-top: 1px;
+}
+
+.maja-resume-section-last {
+	padding-right: 5px;
+}
+
+.maja-resume-section-first {
+	padding-left: 5px;
+}
+
+.maja-resume-section-item-detail-item {
+	color: #AAAAAA;
+	padding-left: 0px;
+	padding-top: 2px;
+}
+
+.resume-section-item-time-span {
+	font-weight: 100;
+}
+
+.maja-writings-sneak-peek,
+.maja-writings-paragraph {
+	font-family: adelle, serif;
+	text-align: justify;
+}
+
+a#home {
+	color: inherit;
+	text-decoration: none;
+}
+
+#logo {
+	display: inline-block;
+	background-image: url(/images/logo_simple_small.png);
+	background-repeat: no-repeat;
+	width: 85px;
+	height: 85px;		
+}
+
+#contact {
+	padding-left: 50px;
+}
+
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+}
+
+#header {
+		margin-left: auto;
+		margin-right: auto;
+		width: 1024px;
+		padding-top: 50px;
+}
+
+#footer {
+		margin-left: auto;
+		margin-right: auto;
+		width: 1024px;
+		background-color: #CCCCCC;
+		height: 120px;
+		clear: both;
+}
+
+.footer-brick {
+	display: inline-block;
+	height: 120px;
+}
+
+#footer-logo {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	float: left;
+	padding-left: 20px;
+	padding-top: 2px;
+}
+
+#footer-title {
+	display: inline-block;
+	position: relative;
+	bottom: 10px;
+	font-weight: 100;
+	padding-left: 7px;
+	float: left;
+	margin-bottom: 5px;
+}
+
+#footer-title-wrapper {
+	width: 200px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer-center {
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	width: 424px;
+}
+
+#footer-left {
+	width: 300px;
+}
+
+#footer-right {
+	width: 250px;
+}
+
+#footer-separator {
+	color: #CCCCCC;
+	padding-bottom: 10px;
+}
+
+#footer-text {
+	width: 400px;
+	height: 120px;
+	font-size: 12px;
+	font-family: adelle, serif;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 22px;
+	text-align: justify;
+}
+
+#contact-wrapper {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 12px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	height: 20px;
+	clear: both;
+	float: left;
+	position: relative;
+	left: 60px;
+}
+
+#linkedin_link {
+	text-decoration: none;
+}
+
+.contact-information {
+	padding: 2px;
+}
+
+div.gv_galleryWrap {
+	background-color: white;
+}
+
+div.gv_infobar,
+div.gv_overlay, 
+div.gv_showOverlay {
+	background-color: #666666;
+	text-align: left;
+	opacity: 0.8;
+}
+
+p.maja-writings-sneak-peek {
+	cursor: pointer;
+}
+
+p.maja-writings-item {
+	cursor: pointer;
+}
+
+.maja-writings-item {
+	margin: 20px;
+	padding-bottom:10px;
+}
+
+.twtr-hd, .twtr-ft {
+	display: none;
+}
+
+.maja-writings-sneak-peek.hover:hover {
+    color: #999;
+}
+
+.maja-writings-gallery-item-title {
+	font-family: adelle, serif;
+	font-weight: 300;
+	font-size: 21px;
+}
+
+#twtr-widget-1 {
+	float: left;
+	padding-left: 24px;
+	padding-top: 16px;
+}

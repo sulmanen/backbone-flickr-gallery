@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Maja Tokic, an M.Arch graduate, recently moved back to the States from a Fulbright year in Finland and is currently looking for an opportunity to work with a dynamic and design-oriented architectural office. Maja is always open to partnering on new projects."/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<title>Maja Tokic</title>
+<script type="text/javascript" src="//use.typekit.net/kqf8cat.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+<link rel="stylesheet" href="stylesheets/main.min.css" type="text/css"/>
+<link type="text/css" rel="stylesheet" href="stylesheets/gv/gv.min.css"/>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="dist/libs.min.js"></script>
+
+<script type="text/template" id="maja_toolbar_item_template">
+  <span class="toolbar-click-item"><%= name %></span>
+</script>
+
+<script type="text/template" id="maja_gallery_item_template">
+	<div class="maja-gallery-item">			
+	<ul id="maja_gallery_minimized_<%= id %>"></ul>
+	<h5 class="maja_project_gallery_item_title"><%= title %></h5>	
+	</div>
+</script>
+
+<script type="text/template" id="maja_gallery_detail_item_template">
+	<ul id="maja_gallery_detail"></ul>
+</script>
+
+<script type="text/template" id="maja_toolbar_item_image_template">
+	<li><img data-frame="<%= url %>" src="<%= url %>"/></li>
+</script>
+
+<script type="text/template" id="maja_gallery_detail_item_image_template">
+		<li><img data-frame="<%= url %>" src="<%= url %>" title="<%= title %>" data-description="<%= text %>" />
+</script>
+
+<script type="text/template" id="maja_project_template">
+	<ul id="maja_gallery_minimized_<%=id%>"></ul>
+<!--	<h5 class="maja_project_gallery_item_title"><%=title%></h5> -->
+</script>
+
+<script type="text/template" id="maja_gallery_detail_template">
+	<div id="maja_gallery_detail_panel_<%=id%>" class="maja-gallery-detail-panel">
+	
+	<h2 class="maja-gallery-detail-title"><%=title%></h2>
+	<div class="maja-gallery-detail-nav maja-gallery-detail-right-nav"></div><div class="maja-gallery-detail-nav maja-gallery-detail-left-nav"></div>
+		
+		<ul id="maja_gallery_detail_images_<%=id%>"></ul>
+	</div>
+</script>
+
+<script type="text/template" id="maja_project_image_template">
+	<%_.each(images, function(image){%><li><img data-frame="<%= image.url %>" src="<%= image.url%>" title="<%= image.title%>" data-description="<%= image.description%>"/></li><%});%>
+</script>
+
+<script type="text/template" id="maja_project_gallery_template">
+    <div id="maja_portfolio">
+		<div id="maja_project_gallery_detail"></div>
+		<div id="maja_project_gallery"></div>
+	</div>
+</script>
+
+<script type="text/template" id="maja_resume_template">
+	<div id="maja_resume">
+	<div id="maja-resume-portrait-wrapper">
+		<p class="maja-resume-introduction">Maja Tokic, grew up just outside of Washington, D.C. Educated with a B.A. at Agnes Scott College in Atlanta and a M.Arch at Washington University in St Louis. An architectural designer, imaginary athlete, activity machine, work horse; she has worked as a designer and consultant on several interior and exterior residential projects. She just came back to the States from a Fulbright Grant year in Helsinki. 
+		</p>		    
+		<img class="maja-resume-portrait" alt="Maja in Kaivopuisto" src="/images/image2bw-small.jpg"/>
+	</div>
+	</div>
+</script>
+
+<script type="text/template" id="maja_resume_section_template">
+	<h4 class="maja-resume-section-title"><%=title%></h4>
+	<%_.each(items, function(item){%>
+		<h5 class="resume-section-item resume-section-item-title"><%=item.title%></h5><br/>
+		<h5 class="resume-section-item resume-section-item-time-span"><%=item.span%></h5>
+	
+	  <ul class="maja-resume-section-item-detail">
+		<li><%=item.place%></li>
+	  <%_.each(item.awards, function(award){%><li class="maja-resume-section-item-detail-item"><%=award.name%></li> <%});%>
+	  </ul>
+	<%});%>	
+</script>
+
+<script type="text/template" id="maja_writings_template">
+	<div id="maja_writings">
+	
+	</div>
+</script>
+
+<script type="text/template" id="maja_writings_item_template">	
+	<div class="maja-writings-item">
+		<h4 class="maja-writings-gallery-item-title"><%=title%></h4>
+		<p class="maja-writings-sneak-peek"><%=intro%></p>
+		<%_.each(text, function(paragraph){%><p class="maja-writings-paragraph"><%=paragraph.paragraph%></p> <%});%>	
+	</div>
+</script>
+
+<script type="text/template" id="maja_writings_item_detail_template">
+	<h3 class="maja-writings-item-detail"><%=title%></h3>
+	<%_.each(text, function(paragraph){%><p class="maja-writings-detail-paragraph"><%=paragraph.paragraph%></p> <%});%>	
+</script>
+
+<script type="text/template" id="maja_footer_template">
+	<div id="footer-left" class="footer-brick">
+		<div id="footer-title-wrapper">
+			<img src="/images/logo_simple_footer.png" alt="Logo M" id="footer-logo"/><h2 id="footer-title">CONTACT</h2>
+		</div>
+		<div id="contact-wrapper">
+		  <div id="contact-email" class="contact-information"><%=email%></div>
+		  <div id="contact-number" class="contact-information"><%=phone%></div>
+		<a id="linkedin_link" href="http://fi.linkedin.com/pub/maja-tokic/31/b79/436" target="_blank">
+			<img id="linkedin" alt="linkedin" src="/images/LinkedIn_IN_Icon_15px.png">
+		</a>
+		<a id="cv"  href="https://dl.dropbox.com/u/7729708/Maja_Tokic_Resume2012.pdf" target="_blank">
+			<img alt="resume" src="/images/PDF.png">
+		</a>
+		</div>	
+	</div>
+		
+	<div id="footer-center" class="footer-brick">
+		<div id="footer-text">
+		<%=intro%>
+	   </div>	
+	</div>
+	
+	<div id="footer-right" class="footer-brick">
+	</div>
+</script>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34336661-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+
+<body>
+	<div id="header">
+		<h1 id="maja-title"><a id="home" href="index.html">MAJA TOKIC</a></h1>	
+		<div id="toolbar" class="maja-navigation-toolbar"></div>
+	</div>
+	
+	<div id="content"></div>
+	
+	<div id="footer"></div>
+
+	<script type="text/javascript">
+window.twittr = new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 1,
+  interval: 30000,
+  width: 250,
+  height: 100,
+  theme: {
+    shell: {
+      background: '#CCCCCC',
+      color: '#666666'
+    },
+    tweets: {
+      background: '#CCCCCC',
+      color: '#666666',
+      links: '#222222'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('MajaTokic').start();
+</script>
+</body>
+</html>

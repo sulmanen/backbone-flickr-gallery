@@ -1,0 +1,278 @@
+[
+    {
+        "title": "Education",
+        "items": [
+            {
+                "span": "2008-2011",
+                "title": "Master of Architecture",
+                "place": "Washington University in St Louis, St Louis, MO, USA",
+                "awards": [
+                    {
+                        "name": "3 1/2 Year Merit---Based Scholarship"
+                    }
+                ]
+            },
+            {
+                "span": "2010",
+                "title": "International Semester Abroad",
+                "place": "Aalto University of Science and Technology, Helsinki, Finland"
+            },
+            {
+                "span": "2003-2007",
+                "title": "Bachelor of Arts, Art History",
+                "place": "Agnes Scott College, Atlanta, GA, USA",
+                "awards": [
+                    {
+                        "name": "4 Year Merit-Based Scholarship"
+                    },
+                    {
+                        "name": "The Dalton Art Award 2007"
+                    },
+                    {
+                        "name": "The Dean's and Honor Lists"
+                    }
+                ]
+            },
+            {
+                "span": "2006",
+                "title": "DISCO Program",
+                "place": "Harvard Graduate School of Design, Boston, MA, USA",
+                "awards": [
+                    {
+                        "name": "Participated in an intensive studio program similar to the first-year architecture graduate program."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Work Experience",
+        "items": [
+            {
+                "span": "2011-Present",
+                "title": "Maja Designs, Designer",
+                "place": "",
+                "awards": [
+                    {
+                        "name": "Work includes residential design, competition entries and collaborative work."
+                    }
+                ]
+	    },
+	    {
+                "span": "2011-2012",
+                "title": "Visiting Research Faculty, Fulbright Scholar",
+                "place": "Aalto University of Science and Technology, Helsinki, Finland",
+                "awards": [
+                    {
+                        "name": "Project: Alvar Aalto's Civic Architecture and the Finnish National Identity."
+                    }
+                ]
+            },
+            {
+                "span": "2008-2012",
+                "title": "Ivan's Painting and Remodeling, Designer",
+                "place": "",
+                "awards": [
+                    {
+                        "name": "Contributed to successful completion of residential projects."
+                    },
+                    {
+                        "name": "Surveyed existing residential properties."
+                    },
+                    {
+                        "name": "Assisted in the production of As-Built Drawings."
+                    },
+                    {
+                        "name": "Performed tasks related to the permitting process, cost estimation and billing."
+                    }
+                ]
+            },
+	    {
+                "span": "2008-2010",
+                "title": "Digital Fabrication Lab Operator and Monitor",
+                "place": "Washington University in St Louis, St Louis, MO",
+                "awards": [
+                    {
+                        "name": "Prepared and assisted student files for Laser Cutting, 3D printing, and CNC mill."
+                    },
+                    {
+                        "name": "Performing maintenance and repairs on machines as needed."
+                    }
+                ]
+            },
+            {
+                "span": "2008",
+                "title": "Helicon Works, Architectural Intern",
+                "place": "",
+                "awards": [
+                    {
+                        "name": "Assisted with working drawings and models."
+                    },
+                    {
+                        "name": "Developed company logo and the monthly newsletter."
+                    },
+                    {
+                        "name": "Laid out, indexed, and revised content of written materials."
+                    }
+                ]
+            },
+	    {
+                "span": "2009-2010",
+                "title": "Teaching Assistant and Research Assistant",
+                "place": "Washington University in St Louis, St Louis, MO",
+                "awards": [
+                    {
+                        "name": "Teaching both graduate and undergraduate level design studio and theory courses."
+                    },
+                    {
+                        "name": "Organized lectures and discussions on relevant topics."
+                    },
+                    {
+                        "name": "Performed critiques of student design work and grading of written work."
+                    },
+                    {
+                        "name": "Held office hours to assist students in project development."
+                    }
+                ]
+            },
+            {
+                "span": "2007",
+                "title": "Archeology Research Assistant",
+                "place": "University of Zadar, Zadar, Croatia",
+                "awards": [
+                    {
+                        "name": "Assisted an archeological field research team of graduate students exploring ancient Illyrian, Green and Roman trading routs along the North-East Adriatic Sea coast."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Awards / Exhibitions / Conferences",
+        "items": [
+            {
+                "span": "2011-Present",
+                "title": "Fulbright Research Grant to Finland",
+                "place": "",
+                "awards": [
+                    {
+                        "name": "Aalto University of Science and Technology, Helsinki, Finland"
+                    },
+                    {
+                        "name": "Project: Alvar Aalto's Civic Architecture and the Finnish National Identity."
+                    }
+                ]
+            },
+            {
+                "span": "2012",
+                "title": "America in Living Color",
+                "place": "",
+                "awards": [
+                    {
+                        "name": "University of Tampere, Tampere, Finland"
+                    },
+                    {
+                        "name": "Project: Modernism and National Identity in Finland."
+                    }
+                ]
+            },
+            {
+                "span": "2011",
+                "title": "AIA-St Louis Chapter: 1st Place Merit Award for Unbuilt Studio Work",
+                "place": "",
+                "awards": [
+                    {
+                        "name": "Four Brothers and Sister Creek Studio"
+                    },
+                    {
+                        "name": "Studio Instructors: Tony Patterson and Eric Hoffman"
+                    },
+                    {
+                        "name": "Washington University in St Louis, St Louis, MO"
+                    }
+                ]
+            },
+            {
+                "span": "2007",
+                "title": "Georgia Undergraduate Art History Forum",
+                "place": "",
+                "awards": [
+                    {
+                        "name": "University of West Georgia, Carrollton, GA"
+                    },
+                    {
+                        "name": "Project: Zaha Hadid: Rethinking Institutional Typologies."
+                    }
+                ]
+            },
+            {
+                "span": "2006-2007",
+                "title": "Organizer and Presenter",
+                "place": "",
+                "awards": [
+                    {
+                        "name": "Agnes Scott College Annual Arts Symposium"
+                    },
+                    {
+                        "name": "Agnes Scott College, Atlanta, GA"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Skills",
+        "items": [
+            {
+                "span": "",
+                "title": "CAD, etc",
+                "place": "AutoCAD, Rhino 3D, Vray and Maxwell Rendering, SketchUp, VectorWorks, Ecotect Analysis Tools",
+                "awards": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "span": "",
+                "title": "Adobe Suite",
+                "place": "Illustrator, Photoshop and InDesign",
+                "awards": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "span": "",
+                "title": "Model Making",
+                "place": "Digital Fabrication, Laser Cutting, CNC Mill, Physical Model Building and Hand Sketching",
+                "awards": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "span": "",
+                "title": "More",
+                "place": "Final Cut Pro, DreamWeaver, MS Office",
+                "awards": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "span": "",
+                "title": "Language",
+                "place": "English and Croatian (native speaker), French (basic), Finnish (beginner)",
+                "awards": [
+                    {
+                        "name": ""
+                    }
+                ]
+            }
+        ]
+    }
+]
